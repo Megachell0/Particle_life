@@ -157,7 +157,7 @@ canvas {
 .restart_butt {
   margin: 6% 5% 0 20%;
   width: 100px;
-  background: no-repeat url(/button.png);
+  background: no-repeat url(button.png);
   background-size: 100px;
   height: 40px;
 }
