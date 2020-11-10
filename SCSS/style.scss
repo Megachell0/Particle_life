@@ -1,0 +1,85 @@
+@import "_nulifer";
+
+canvas{
+    display: block;
+    background-color: #000000;
+    z-index: -1;
+}
+
+.but{
+    position:absolute;
+    position: relative;
+    z-index: 10;
+}
+
+.sl-cont{
+    width: 90%;
+    margin: 70px auto;
+}
+.ui{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: block;
+    position: absolute;
+    top: 0; left: 1; bottom: 0; right: 0;
+    opacity: 0.7;
+    border-radius: 5px;
+    z-index: 5;
+    height: 390px;
+    background-color: rgb(41, 51, 61);
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+}
+.sl_name{
+    display: block;
+    color: white;
+    margin-left: 150px;
+    //width: 500px;
+}
+
+
+.sl-cont{
+    margin: 15px auto 0 auto;
+    padding: 5px;
+}
+.textbox{
+    font-size: 16px;
+    margin: 15px 0px 0 5px;
+    width: 40px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.col1{
+    width: 250px;
+    margin: 0;
+}
+.col2{
+    margin: 25px 25px 0 0;
+    width: 90px;
+}
+.numpart{
+    width: 60px;
+    margin-left: -20px;
+}
+
+.textb{
+    font-size: 13px;
+    color: white;
+}
+
+.data-inp{
+    display: flex;
+}
+
+.restart_butt{
+    margin: 6% 5% 0 20%;
+    width: 100px;
+    background: no-repeat url(/button.png);
+    background-size: 100px;
+    height: 40px;
+}
+.restart_butt:active{
+    margin: 9% 5% 0 23%;
+    background-size: 80px;
+}

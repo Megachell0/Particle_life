@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rSlider.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="ui">
+        <span class=sl_name>Сила взаимодействия</span>
+        <div class="sl-cont">
+            <input type="text" id="slider1" class="slider">
+        </div>
+        <span class=sl_name>Дальность отталкивания</span>
+        <div class="sl-cont">
+            <input type="text" id="slider2" class="slider">
+        </div>
+        <span class=sl_name>Дальность притяжения</span>
+        <div class="sl-cont">
+            <input type="text" id="slider3" class="slider">
+        </div>
+        <div class="data-inp">
+            <div class="col1">
+                <div class="textb">
+                    <input type="text" class="textbox" id="text1" value="3">
+                    <span>Размер частицы</span>
+                </div>
+                <div class="textb">
+                    <input type="text" class="textbox" id="text2" value="0.8">
+                    <span>Трение</span>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="textb">
+                    <input type="text" class="textbox" id="text3" value="15">
+                    <span>Количество типов</span>
+                </div>
+                <div class="textb">
+                    <input type="text" class="textbox numpart" id="text4" value="500">
+                    <span>Количество клеток</span>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="butt">
+                    <input onclick="reset()" type="button" class="restart_butt">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/gpu-browser.min.js"></script>
+    <script src="JS/rSlider.js"></script>
+    <script src="JS/script-gpu.js"></script>
+</body>
+
+</html>
